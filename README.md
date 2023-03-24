@@ -6,3 +6,5 @@ The python program "online_store_analysis.py" uses the csv module to read the da
 We can run the Python code by navigating to the folder where you saved the file using the command line and typing python online_store_analysis.py (assuming you have Python installed on your computer).
 ![image](https://user-images.githubusercontent.com/39020570/227107145-a19bba94-ed77-4e0c-a00a-0b1951c316e8.png)
 
+To build and run the Docker container, you can use the docker build and run command.
+
