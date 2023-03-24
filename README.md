@@ -7,4 +7,12 @@ We can run the Python code by navigating to the folder where you saved the file 
 ![image](https://user-images.githubusercontent.com/39020570/227107145-a19bba94-ed77-4e0c-a00a-0b1951c316e8.png)
 
 To build and run the Docker container, you can use the docker build and run command.
+to run test code
+python -m unittest test_revenue_analysis.py
+
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
 
