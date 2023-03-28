@@ -1,0 +1,11 @@
+version: '3'
+services:
+  task:
+    build: .
+    volumes:
+      - ./orders.csv:/app/orders.csv
+  test:
+    build: .
+    command: ["python", "-m", "unittest", "test_store_analysis.py"]
+    volumes:
+      - ./orders.csv:/app/orders.csv
