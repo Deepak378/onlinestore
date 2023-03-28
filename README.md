@@ -6,13 +6,16 @@ The python program "online_store_analysis.py" uses the csv module to read the da
 We can run the Python code by navigating to the folder where you saved the file using the command line and typing python online_store_analysis.py (assuming you have Python installed on your computer).
 ![image](https://user-images.githubusercontent.com/39020570/227107145-a19bba94-ed77-4e0c-a00a-0b1951c316e8.png)
 
-To build and run the Docker container, you can use the docker build and run command.
-to run test code
-python -m unittest test_revenue_analysis.py
+Build and run the services:
+To build and run the services:
+docker-compose build
+docker-compose up
 
-....
-----------------------------------------------------------------------
-Ran 4 tests in 0.000s
 
-OK
+The build command will build the Docker images for the task and test services. The up command will start the containers and output the logs to the console.
+
+Run the tests:
+To run the tests, open a new terminal window and run the following command:
+docker-compose run test
+
 
