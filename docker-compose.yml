@@ -1,0 +1,12 @@
+version: '3'
+services:
+  task:
+    build: .
+    command: python deepak_code.py
+    volumes:
+      - .:/app
+  test:
+    build: .
+    command: python -m unittest unittest.py
+    volumes:
+      - .:/app
